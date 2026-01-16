@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9fafb;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background-color: #1f3a5f;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Sections */
+section {
+  padding: 50px 0;
+}
+
+.hero {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-bottom: 15px;
+}
+
+.note {
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Services */
+.services ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+/* How it works */
+.how-it-works ol {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.how-it-works li {
+  margin-bottom: 10px;
+}
+
+/* Disclaimer */
+.disclaimer {
+  background-color: #fff3f3;
+  border-top: 2px solid #e0b4b4;
+  border-bottom: 2px solid #e0b4b4;
+}
+
+.disclaimer p {
+  margin-top: 15px;
+}
+
+/* Contact */
+.contact {
+  text-align: center;
+}
+
+.email {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f3a5f;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
