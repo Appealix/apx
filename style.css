@@ -100,3 +100,29 @@ section {
   padding: 20px 0;
   font-size: 0.9rem;
 }
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+.nav {
+  background: #e9edf2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #1f3a5f;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
