@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Pricing | Appealix</title>
-  <meta name="description" content="Three transparent pricing tiers for administrative insurance appeal document preparation." />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Transparent pricing for administrative insurance appeal document preparation.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header class="header">
   <div class="container header-flex">
-    <a href="index.html">
-      <img src="appealix.png" alt="Appealix logo" class="logo" />
-    </a>
+    <a href="index.html"><img src="appealix.png" class="logo" alt="Appealix"></a>
     <h1>Pricing</h1>
   </div>
 </header>
@@ -25,63 +23,70 @@
   </div>
 </nav>
 
-<section>
-  <div class="container pricing-grid">
+<section class="container pricing-grid" itemscope itemtype="https://schema.org/OfferCatalog">
 
-    <div class="pricing-card">
-      <h2>Basic</h2>
-      <p class="price">$49</p>
-      <ul>
-        <li>Appeal letter rewrite</li>
-        <li>One document</li>
-      </ul>
-    </div>
-
-    <div class="pricing-card featured">
-      <h2>Standard</h2>
-      <p class="price">$99</p>
-      <ul>
-        <li>Letter rewrite</li>
-        <li>Appeal form completion</li>
-        <li>Up to 3 documents</li>
-      </ul>
-    </div>
-    
-    <div class="pricing-card featured">
-      <h2>Comprehensive</h2>
-      <p class="price">$149</p>
-      <ul>
-        <li>Expedited Delivery in 24 Hours</li>
-        <li>Letter rewrite</li>
-        <li>Appeal form completion</li>
-        <li>Up to 3 documents</li>
-      </ul>
-    </div>
-    
-    <div class="pricing-card">
-      <h2>Comprehensive</h2>
-      <p class="price">$297</p>
-      <ul>
-        <li>Full appeal packet preparation</li>
-        <li>Multiple documents</li>
-        <li>Up to 6 documents</li>
-      </ul>
-    </div>
-
+  <div class="pricing-card" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
+    <h2 itemprop="name">Basic</h2>
+    <p class="price">$49</p>
+    <meta itemprop="price" content="49">
+    <meta itemprop="priceCurrency" content="USD">
+    <ul itemprop="description">
+      <li>Appeal letter rewrite</li>
+      <li>One document</li>
+    </ul>
   </div>
 
-  <div class="container">
-    <p class="note">
-      Administrative document preparation only. No advice or representation.
-    </p>
-    <p><a href="index.html">← Back to Home</a></p>
+  <div class="pricing-card featured" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
+    <span class="badge">Most Popular</span>
+    <h2 itemprop="name">Standard</h2>
+    <p class="price">$99</p>
+    <meta itemprop="price" content="99">
+    <meta itemprop="priceCurrency" content="USD">
+    <ul itemprop="description">
+      <li>Letter rewrite</li>
+      <li>Appeal form completion</li>
+      <li>Up to 3 documents</li>
+    </ul>
   </div>
+
+  <div class="pricing-card expedited" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
+    <h2 itemprop="name">Expedited</h2>
+    <p class="price">$149</p>
+    <meta itemprop="price" content="149">
+    <meta itemprop="priceCurrency" content="USD">
+    <ul itemprop="description">
+      <li>24-hour delivery</li>
+      <li>Letter rewrite</li>
+      <li>Form completion</li>
+      <li>Up to 3 documents</li>
+    </ul>
+  </div>
+
+  <div class="pricing-card" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
+    <h2 itemprop="name">Comprehensive</h2>
+    <p class="price">$297</p>
+    <meta itemprop="price" content="297">
+    <meta itemprop="priceCurrency" content="USD">
+    <ul itemprop="description">
+      <li>Full appeal packet preparation</li>
+      <li>Up to 6 documents</li>
+    </ul>
+  </div>
+
 </section>
 
+<div class="container">
+  <p class="note">Administrative document preparation only. No advice or representation.</p>
+</div>
+
 <footer class="footer">
-  <div class="container">
-    <p>© 2026 Appealix | <a href="index.html">Home</a></p>
-  </div>
+  <p>
+    <a href="index.html">Home</a> |
+    <a href="privacy.html">Privacy</a> |
+    <a href="terms.html">Terms</a> |
+    <a href="refund.html">Refund Policy</a>
+  </p>
+  <p>© 2026 Appealix</p>
 </footer>
 
 </body>
